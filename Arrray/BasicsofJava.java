@@ -7,7 +7,6 @@ public class BasicsofJava {
     public static void main(String[] args) {
       /*   int age[] = {12,34,54,22,44,98};
 
-        
         Length of Array
         int n = age.length;
         System.out.println(n);
@@ -22,10 +21,11 @@ public class BasicsofJava {
            for(int i : age){
             System.out.print(i + " ");
         }
-        */ 
+        /
+        
          
         //SORT THE ARRAY (GIVE THE USER INPUT)
-        System.out.println(" the no of elements of array");
+         System.out.println(" the no of elements of array");
          Scanner sc = new Scanner(System.in);
          int n = sc.nextInt();
          int age [] = new int [n];
@@ -33,13 +33,15 @@ public class BasicsofJava {
          for (int i = 0; i<n; i++){
             age[i] = sc.nextInt();
             //System.out.print(age[i] +" ");
-            Arrays.sort(age);
-         System.out.println(Arrays.toString(age));   
+          
          }
 
-         
-
-      
+         Arrays.sort(age);
+         System.out.println(Arrays.toString(age));  
+             
     
     }
 }
+*/
+
+
