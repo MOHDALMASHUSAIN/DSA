@@ -9,13 +9,9 @@ public class Q20SortedorNOT {
                   
                    System.out.println("not sorted");
                    break;
-               }    
+               }     
             
             }
-            
-               System.out.println("sorted");
-           
-
         }
     }
 

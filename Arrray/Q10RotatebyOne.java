@@ -5,15 +5,15 @@ public class Q10RotatebyOne {
         int arr[] = {43,5,435,1,2,3};
         int temp = arr[arr.length-1];
        
-        for (int i =0;i<arr.length-1;i++){
-            arr[i+1] =arr[i];
+        for (int i =arr.length-1;i>0;i--){
+            arr[i] =arr[i-1];
         }
          arr[0] = temp;
         
-     // System.out.print(arr[]); 
-     //for (int i : arr) {
-       
-    // }
+    
+      for (int i : arr) {
+       System.out.print(i +" ");
+     }
 
     }
 }
