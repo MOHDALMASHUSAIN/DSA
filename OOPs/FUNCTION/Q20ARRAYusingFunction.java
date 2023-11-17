@@ -3,27 +3,30 @@ package OOPs.FUNCTION;
 import java.util.Scanner;
 
 public class Q20ARRAYusingFunction {
-    static boolean sOrted(int arr[]){
-        for(int j =0;j<arr.length;j++){
-            if(arr[j]<arr[j+1]){
-                return true;
-            }
-            else{
+    static boolean isSorted(int arr[], int m) {
+        for (int j = 0; j < m - 1; j++) {
+            if (arr[j] > arr[j + 1]) {
                 return false;
             }
         }
+        return true;
     }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("no of element ");
+        System.out.println("Number of elements: ");
         int n = sc.nextInt();
-        int arr[]= new int [n];
-        System.out.println("Elements of the arrays are");
-        for(int i = 0; i<arr.length; i++){
+        int arr[] = new int[n];
+        System.out.println("Elements of the array: ");
+        for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
-        System.out.println(sOrted(arr));
-sc.close();
+        boolean sorted = isSorted(arr, n);
+        if (sorted) {
+            System.out.println("The array is sorted.");
+        } else {
+            System.out.println("The array is not sorted.");
+        }
+        sc.close();
     }
-    
 }
