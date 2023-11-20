@@ -1,15 +1,18 @@
 package OOPs.FUNCTION;
 
-interface Ai{
+//
+ interface Ai{
      // abstract : declare in superclass but must defined in subclass
     void add();
     void sub();
 }
-interface Bi{
+ // 
+ interface Bi{
     void mul();
     void rem();
 }
-class Ci implements Ai,Bi{
+class Ci  implements Ai,Bi{
+ 
    public void add(){
     System.out.println("This is an example of Multiple Inheritance:: add");
    }

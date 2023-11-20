@@ -47,7 +47,7 @@ class CurrentAccount extends Account {
     }
 }
 
-public class ClassPractice {
+public class Class5_OverriddenExample {
     public static void main(String[] args) {
          SavingAccount sa = new SavingAccount();
          sa.deposit();
