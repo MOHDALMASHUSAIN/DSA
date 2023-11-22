@@ -2,7 +2,7 @@ package OOPs.FUNCTION;
 
 import java.util.Scanner;
 
-public class Class1 {
+ class Class1_Switch {
     static void add(int a , int b){
         System.out.println(a+b);
     }

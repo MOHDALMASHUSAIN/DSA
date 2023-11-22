@@ -61,13 +61,15 @@ public class Class4_Upcasting {
         System.out.println("----------------------");
         sa.withdraw();
         System.out.println("----------------------");
-        // sa.limitOfTrans();
+        // sa.limitOfTrans();---------> is wrong and not print ans,
+                only base class method is true in upcasting.
         */
         Account ca = new CurrentAccount();
         ca.deposit();
         System.out.println("----------------------");
         ca.withdraw();
         System.out.println("----------------------");
+      //  ca.odLimit(); ----------------> is wrong and not print ans ,only base class method
       
          
                              //// DOWNCASTING
@@ -80,6 +82,7 @@ public class Class4_Upcasting {
         pa.withdraw();
         System.out.println("-------------------------");
         pa.odLimit();
+        // here base class and child class method both are true .
 */
 
     }

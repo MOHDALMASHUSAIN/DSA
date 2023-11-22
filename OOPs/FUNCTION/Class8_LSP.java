@@ -1,5 +1,4 @@
 package OOPs.FUNCTION;
-
 class Shape{
     double size;
     void calculateArea(){

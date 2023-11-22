@@ -2,7 +2,7 @@ package OOPs.FUNCTION;
 
 import java.util.Arrays;
 
-public class Class2 {
+public class Class2_Arraysort {
     static void muin(int arr[]){
         Arrays.sort(arr);
         System.out.print(Arrays.toString(arr));

@@ -1,6 +1,6 @@
 package OOPs.FUNCTION;
 
-public class Class3 {
+public class Class3_EvenNo {
     static void Almas(int n){
         if(n%2 ==0){
             System.out.println("even number");
