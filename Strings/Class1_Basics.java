@@ -2,7 +2,7 @@ package Strings;
 
 import java.util.Scanner;
 
-public class Class_1Basics {
+public class Class1_Basics {
    
     public static void main(String[] args) {
          String str = "This is 1st class of string.V r learnig basics of it";
