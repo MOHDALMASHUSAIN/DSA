@@ -1,4 +1,4 @@
-//QUES-User Input-"Hello".find the length of string without using .length()
+//QUES-User Input-"______".find the length of string without using .length()
 package Strings;
 
 import java.util.Scanner;
@@ -9,7 +9,9 @@ public class Class1_hw2 {
  System.out.println("enter the Letter :" );
  Scanner sc = new Scanner(System.in);
  String str = sc.nextLine();
-   System.out.println("length of String is "+(str.lastIndexOf('o')+1));
-sc.close();
+ while(str == " "){
+
+ }
+  
   }   
 }
