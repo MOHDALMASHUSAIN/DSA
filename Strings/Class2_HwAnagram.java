@@ -19,7 +19,7 @@ public class Class2_HwAnagram {
         Scanner sc= new Scanner(System.in);
         System.out.println("enter the string1");
         String str1 = sc.nextLine();
-         System.out.println("enter the string2");
+         System.out.println("enter thestring2");
         String str2 = sc.nextLine();
        
         if(checkAnagram(str1,str2)==-1){

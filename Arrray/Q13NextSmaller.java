@@ -10,7 +10,7 @@ public class Q13NextSmaller {
                 count ++;
             } 
         }
-        System.out.println("nxt smaller element of" +arr[i] +" :" + count);
+        System.out.println("Nxt smaller element of" +arr[i] +" :" + count);
        }
        
     }
