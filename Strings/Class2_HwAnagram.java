@@ -23,7 +23,7 @@ public class Class2_HwAnagram {
         String str2 = sc.nextLine();
        
         if(checkAnagram(str1,str2)==-1){
-            System.out.println("not A Anagram");
+            System.out.println("not  Anagram");
         }
 else{
     System.out.println("string is a Anagram ");
