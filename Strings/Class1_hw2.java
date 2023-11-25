@@ -9,9 +9,12 @@ public class Class1_hw2 {
  System.out.println("enter the Letter :" );
  Scanner sc = new Scanner(System.in);
  String str = sc.nextLine();
+ int count = 0;
  while(str == " "){
-
- }
   
+   str = str.substring(1);
+   count =count + 1;
+ }  
+ System.out.println(count);
   }   
 }

@@ -31,7 +31,7 @@ public class Q8TargetElement {
 Scanner sc = new Scanner(System.in);
 System.out.println(" the target element IS ");
 int target = sc.nextInt();
-    if(findTarget(int arr, int target)==-1){
+    if(findTarget( arr,target)==-1){
         System.out.println("element not found");
     }
     
