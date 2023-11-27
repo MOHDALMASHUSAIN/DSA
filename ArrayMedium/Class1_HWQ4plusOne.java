@@ -10,7 +10,7 @@ public class Class1_HWQ4plusOne {
         int arr[] = new int[n];
         System.out.print("The array is: ");
         for (int k = 0; k < n; k++) {
-            arr[k] = sc.nextInt();
+            arr[k] =sc.nextInt();
         }
           int num = 0;
           for (int i = 0;i<arr.length;i++){
@@ -27,9 +27,8 @@ public class Class1_HWQ4plusOne {
             num=num/10;
         }
         for(int i :arr){
-            System.out.println(i);
+            System.out.print(i);
         }
-
 
      sc.close();
     }
