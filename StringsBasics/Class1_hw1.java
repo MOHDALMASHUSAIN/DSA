@@ -1,6 +1,6 @@
 //Question - String -"Hello_User". find all the substring using function.
 
-package Strings;
+package StringsBasics;
 public class Class1_hw1 {
  static void getSubstrings(String str){
      for (int i = 1; i<=str.length();i++){

@@ -1,4 +1,4 @@
-package Arrray;
+package ArrrayBasics;
 
 public class MaxandMin {
     public static void main(String[] args) {

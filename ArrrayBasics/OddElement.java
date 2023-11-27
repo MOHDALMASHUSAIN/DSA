@@ -1,4 +1,4 @@
-package Arrray;
+package ArrrayBasics;
 
 import java.util.Scanner;
 

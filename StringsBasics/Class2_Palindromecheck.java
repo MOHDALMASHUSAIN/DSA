@@ -1,4 +1,4 @@
-package Strings;
+package StringsBasics;
 import java.util.Scanner;
 
 public class Class2_Palindromecheck {

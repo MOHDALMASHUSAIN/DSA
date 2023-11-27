@@ -1,4 +1,4 @@
-package Arrray;
+package ArrrayBasics;
 
 public class Q18SumofArrayexceptItself {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Strings;
+package StringsBasics;
 
 public class Class1_InbuiltMethod {
     public static void main(String[] args) {

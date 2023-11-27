@@ -1,4 +1,4 @@
-package Arrray;
+package ArrrayBasics;
 
 public class Q20SortedorNOT {
     public static void main(String[] args) {

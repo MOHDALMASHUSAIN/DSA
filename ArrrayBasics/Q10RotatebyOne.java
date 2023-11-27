@@ -1,4 +1,4 @@
-package Arrray;
+package ArrrayBasics;
 
 public class Q10RotatebyOne {
     public static void main(String[] args) {

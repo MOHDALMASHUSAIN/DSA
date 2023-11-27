@@ -25,7 +25,7 @@ public class twoDarray {
     }
 }
 */
-package Arrray;
+package ArrrayBasics;
 
 import java.util.Scanner;
 

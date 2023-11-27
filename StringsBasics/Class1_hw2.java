@@ -1,5 +1,5 @@
 //QUES-User Input-"______".find the length of string without using .length()
-package Strings;
+package StringsBasics;
 
 import java.util.Scanner;
 
