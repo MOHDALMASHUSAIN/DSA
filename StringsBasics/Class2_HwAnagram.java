@@ -14,7 +14,8 @@ public class Class2_HwAnagram {
                  
                }}
              return 1;
-            }}
+            }
+        return 0;}
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
         System.out.println("enter the string1");
@@ -28,5 +29,6 @@ public class Class2_HwAnagram {
 else{
     System.out.println("string is a Anagram ");
 }
+sc.close();
     }
 }
