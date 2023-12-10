@@ -2,7 +2,7 @@ package CH5Recursion;
 
 public class Class2_HWQ5aPowerof2 {
     static boolean power(int n){
-        if(n/2==1){
+        if(n==1){
            return true;
         }
        if(n%2==1){
@@ -12,9 +12,12 @@ public class Class2_HWQ5aPowerof2 {
         
     }
     public static void main(String[] args) {
-        if(power(16)){
+        if(power(17)==true){
             System.out.println("power of 2");
         }
-       // System.out.println(power(16)==true);
+        else{
+            System.out.println("not power of 2");
+        }
+      
     }
 }

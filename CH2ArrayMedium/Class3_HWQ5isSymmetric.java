@@ -4,8 +4,10 @@ import java.util.Scanner;
 
 public class Class3_HWQ5isSymmetric {
   static boolean check (int arr[][]){
+     
+     
           for(int i =0;i<arr.length;i++){
-            for(int j=0;j<arr[i].length;j++){
+            for(int j=0;j<arr.length;j++){
                 if(arr[i][j]!=arr[j][i]){
                  return false;
                 }
@@ -21,6 +23,10 @@ public class Class3_HWQ5isSymmetric {
         int row = sc.nextInt();
          System.out.println("enter the no of col");
         int col =sc.nextInt();
+        if(row!=col){
+          System.out.println("not symetric");
+        }
+        else{
           int arr[][] = new int[row][col];
           for(int i=0;i<row;i++ ){
             for(int j=0;j<col;j++){
@@ -32,7 +38,7 @@ public class Class3_HWQ5isSymmetric {
           }
           else{
             System.out.println("false");
-          }
+          }}
          
  sc.close();
     }

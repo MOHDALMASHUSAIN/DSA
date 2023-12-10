@@ -16,6 +16,8 @@ public class Class2_HWQ3factorial {
     
        factor(5, 1);
 
+       
+
 
 
   }

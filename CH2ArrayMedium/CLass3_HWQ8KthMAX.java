@@ -18,10 +18,7 @@ public class CLass3_HWQ8KthMAX {
                 arr[i][j] = sc.nextInt();
             }
         }
-          // max nikalo aur array mn dalo aur kth tk.
-       
-
-
+        
         
     }
     
