@@ -73,7 +73,7 @@ public class Class1_Q1CRUD {
 
     
     public static void main(String[] args) {
-        String filepath = "C:\\DSA\\CH6FileHandling\\Rano.txt";
+        String filepath = "C:\\Users\\MOHD ALMAS HUSAIN\\Downloads\\DSA\\DSA\\Myfileaa";
         createfile(filepath);
         Deletefile(filepath);
         String content = "Print 1 to N";
