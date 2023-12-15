@@ -1,9 +1,8 @@
 package CH7Stack;
 
-public class Class1_Q2ValidParenthesiS {
+public class Class2_Q1findkthelemnt {
     public static void main(String[] args) {
         
     }
-
     
 }
