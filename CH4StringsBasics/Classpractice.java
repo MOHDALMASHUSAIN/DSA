@@ -1,39 +1,35 @@
-  package CH4StringsBasics;
+   package CH4StringsBasics;
 
-import java.util.Scanner;
+import java.util.Stack;
 
 public class Classpractice {
+  static boolean isvalidParenthesis(String parenthesis){
+    if(parenthesis.length()%2!=0){
+      return false;
+    }
+    Stack<Character> currentBracket = new Stack<>();
+    for(int i = 0;i<parenthesis.length();i++){
+       if (parenthesis.charAt(i)=='[' || parenthesis.charAt(i)=='(' || parenthesis.charAt(i)=='{' ) {
+        currentBracket.push(parenthesis.charAt(i));
+       }
+       if (currentBracket.peek ==) {
+        
+       }
+
+    } 
    
-    static long hashcod(String str){
-     long hC =0;
-      for(int i = 0;i<str.length();i++){
-    hC += str.charAt(i)*Math.pow(i, 2);
-      }
-     return hC;
-   }
-  
-public static void main(String[] args) { Scanner sc = new Scanner(System.in);
- System.out.println("enter the string s");
- String s = sc.nextLine();
- System.out.println("enter the patern : patt");
- String patt = sc.nextLine();
-//  String sti = "Abbbc";
-//  System.out.println(hashcod(sti));
-long hashcodeofPattern =hashcod(patt);
-for(int i = 0;i<=s.length()-patt.length();i++){
-String subString =s.substring(i, i+patt.length());
-long hashcodeofsubString = hashcod(subString);
-if (hashcodeofPattern==hashcodeofsubString) {
-   System.out.println("Index of repeatating pattern in substring "+i);
-   
-}
-}
- sc.close();
 
-} 
-}
-
-
+    
      
 
- 
+
+
+  }
+
+
+
+
+  public static void main(String[] args) {
+    //Stack <Integer>MyStack= new Stack<>(); 
+  }    
+  }
