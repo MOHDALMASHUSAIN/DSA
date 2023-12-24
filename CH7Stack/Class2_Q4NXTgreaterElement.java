@@ -4,7 +4,7 @@ import java.util.Stack;
 public class Class2_Q4NXTgreaterElement {
     public static void main(String[] args) {
         int arr[] ={4,2,10,7,11};
-        Stack <Integer> stack = new Stack<>();  
+        
         stack.push(arr[0]);
         int arr1[] = new int[arr.length];
         for (int i = 0; i < arr.length; i++) {

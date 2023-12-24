@@ -3,10 +3,32 @@ import java.util.Scanner;
 import java.util.Stack;
 
 public class Class3_Q3Sort {
+    static Stack<Integer> fun(Stack OS){
+        Stack<Integer>TS = new Stack<>();
+        int current = OS.pop();
+        while (!TS.empty() && current >TS.peek()) {
+            OS.push(TS.pop());
+        }    
+            TS.push(current);
+             return TS;
+            
+        }
+       
+    
+
     public static void main(String[] args) {
+        Stack <Integer> OS = new Stack<>();
+        Scanner sc = new Scanner(System.in);
+      System.out.println("enter total no of elements in the stack-:N"); 
+      int  N = sc.nextInt();
+      System.out.println("now push the elements of the stacks ");
+      for(int i = 0;i<N;i++){
+     OS.push(sc.nextInt());
+      }
+
+       fun(OS);
         
 
-        
     }
 
 }
