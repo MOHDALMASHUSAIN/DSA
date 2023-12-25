@@ -3,14 +3,14 @@ package CH9Queue;
 class Queue{
         private static int maxSize ;
         private static int front ;
-         private static int rear ;
+        private static int rear ;
         
         private static int []QueueArray;
 
         public Queue(int capacity){
             this.maxSize = capacity;
             this.front = 0;
-             this.rear = -1;
+            this.rear = -1;
             this.QueueArray = new int[capacity];
 
         }
@@ -23,7 +23,7 @@ class Queue{
                 System.out.println("Element Stored : " + value );
             }
             else{
-                System.out.println("Stack Overflow");
+                System.out.println("Queue Overflow");
             }
         }
 
@@ -34,7 +34,7 @@ class Queue{
                 return element;
             }
             else{
-                System.out.println("Stack Underflow");
+                System.out.println("Queue Underflow");
                 return -1;
             }
         }
@@ -46,7 +46,7 @@ class Queue{
                 return element;
             }
             else{
-                System.out.println("Stack Underflow");
+                System.out.println("Queue Underflow");
                 return -1;
             }
         }
@@ -74,16 +74,16 @@ class Queue{
             }
         }
     }
-public class Class1_ArrayImplementation {
+public class Class1_hwQ1ArrayImplementation {
     public static void main(String[] args) {
         Queue myQueue = new Queue(3);
         myQueue.offer(20);
         myQueue.offer(60);
         myQueue.offer(80);
          System.out.println(myQueue.poll());
-        // System.out.println(myStack.poll());
+        // System.out.println(myQueue.poll());
          System.out.println(myQueue.peek());
-    //     // System.out.println(myStack.poll());
+    //     // System.out.println(myQueue.poll());
     //     System.out.println(myQueue.isEmpty());
     //     System.out.println(myQueue.isFull());
        myQueue.printQueue();
