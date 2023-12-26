@@ -13,7 +13,7 @@ class Queue{
             this.maxSize = capacity;
             this.front = 0;
             this.rear = -1;
-            this.Queuestack = new <Integer>;
+            this.Queuestack = new Stack<>();
 
         }
         public void offer(int value){
@@ -39,20 +39,32 @@ class Queue{
                 Queuestack.pop();
                 for (int i = 0; i < temp.size(); i++) {
                     Queuestack.push(temp.pop());
-                }
-
-               
-               
+                }               
                 System.out.print("Removed Element : " );
-                return element;
-            }
-            
+                return 1;
+            }            
             else{
                 System.out.println("Queue Underflow");
                 return -1;
+            }        
+        }
+        static void printQueue(){
+            if(!isEmpty()){
+                System.out.println("Queue ELEMENTS ARE : ");
+                for(int i =front;i<=rear;i++){
+                System.out.print(Queuestack.elementAt(i) + "  ");
             }
+            }
+            else{
+                System.out.println("Queue is empty....");
+            }
+        }
+        private static boolean isEmpty() {
+            return false;
+        }
         
-        }    
+        
+
         
     }        
 
@@ -66,7 +78,7 @@ public class Class1_hwQ2StackImplementation {
         myQueue.offer(80);
          System.out.println(myQueue.poll());
         // System.out.println(myQueue.poll());
-         System.out.println(myQueue.peek());
+        // System.out.println(myQueue.peek());
     //     // System.out.println(myQueue.poll());
     //     System.out.println(myQueue.isEmpty());
     //     System.out.println(myQueue.isFull());

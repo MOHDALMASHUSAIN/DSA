@@ -1,35 +1,60 @@
    package CH4StringsBasics;
-
-import java.util.Stack;
-
-public class Classpractice {
-  static boolean isvalidParenthesis(String parenthesis){
-    if(parenthesis.length()%2!=0){
-      return false;
+class Queue{
+   private static int maxSize;
+   private static int front;
+   private static int rear;
+   private static int arr[];
+   public Queue(int capacity){
+    this.front = 0;
+    this. rear =-1;
+    this.maxSize = capacity;
+    this.arr = new int[maxSize];
+   }
+   static void offer(int value){
+    if (rear<maxSize) {
+      System.out.println(arr[++rear] = value);
     }
-    Stack<Character> currentBracket = new Stack<>();
-    for(int i = 0;i<parenthesis.length();i++){
-       if (parenthesis.charAt(i)=='[' || parenthesis.charAt(i)=='(' || parenthesis.charAt(i)=='{' ) {
-        currentBracket.push(parenthesis.charAt(i));
-       }
-       if (currentBracket.peek ==) {
-        
-       }
+    else{
+      System.out.println("overflow");
+    }
 
-    } 
+   }
+   static int poll(){
+    if (rear>front) {
+      int element = arr[front++];
+      System.out.println("deleted element is::");
+      return element;
+      
+    }
+    else{
+      System.out.println("underflow condition");
+     
+    }
+     return -1;
+  }
+    static int Peek(){
+
+    }
+
+
+
+
+
+
+
    
 
-    
-     
+
+
+           
+}
+
+public class Classpractice {
+
+ 
+public static void main(String[] args){
 
 
 
-  }
-
-
-
-
-  public static void main(String[] args) {
-    //Stack <Integer>MyStack= new Stack<>(); 
   }    
   }

@@ -6,7 +6,7 @@ import java.util.Stack;
 
 public class Class2_Q1findkthelemnt {
     public static void main(String[] args) {
-      Stack <Integer> findkthelemnt = new java.util.Stack<>();
+      Stack <Integer> findkthelemnt = new Stack<>();
       Scanner sc = new Scanner(System.in);
       System.out.println("enter total no of elements in the stack-:N"); 
       int  N = sc.nextInt();

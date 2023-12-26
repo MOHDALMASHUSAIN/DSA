@@ -15,15 +15,15 @@ public class Class2_Q2deleteMiddleElement {
       }
 
       Stack <Integer> Temporary = new Stack<>();
-      int n = deleteMiddleElement.size();
-      for (int i = 0; i <n/2; i++) {
+      //int n = deleteMiddleElement.size();
+      for (int i = 0; i<N/2; i++) {
         Temporary.push(deleteMiddleElement.pop());
       }
       deleteMiddleElement.pop();
-      for (int i = 0; i <=Temporary.size(); i++) {
+      for (int i = 0; i<Temporary.size(); i++) {
         deleteMiddleElement.push(Temporary.pop());
       }
-      for (int i = 0; i <deleteMiddleElement.size(); i++) {
+      for (int i = 0; i<deleteMiddleElement.size(); i++) {
         System.out.print(deleteMiddleElement.elementAt(i) + " ");
       }
     }
