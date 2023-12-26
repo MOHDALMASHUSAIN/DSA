@@ -2,6 +2,22 @@ package CH7Stack;
 import java.util.Scanner;
 import java.util.Stack;
 public class Class2_Q3REVERSEthestack {
+    static void Mystack(Stack stack){
+
+        Stack<Integer>temp1 = new Stack<>();
+        Stack<Integer>temp2 = new Stack<>();
+
+        while (!stack.isEmpty()){
+        temp1.push((Integer) stack.pop());        
+        }
+        while (!temp1.isEmpty()) {
+        temp2.push(temp1.pop());        
+        }
+        while (!temp2.isEmpty()) {
+        stack.push(temp2.pop());       
+        }
+        System.out.println("reversed stack is ::" + stack);
+    }
     public static void main(String[] args) {
          Stack <Integer> stack = new java.util.Stack<>();
       Scanner sc = new Scanner(System.in);
@@ -11,28 +27,11 @@ public class Class2_Q3REVERSEthestack {
       for(int i = 0;i<N;i++){
         stack.push(sc.nextInt());
       }
-      int arr[] = new int[N];
-    for (int i = 0; i < arr.length; i++) {
-        arr[i] = stack.pop();
-    }
-    for (int i = 0; i < arr.length; i++) {
-        stack.push(arr[i]);
-    }
-    for (int i = 0; i < stack.size(); i++) {
-        System.out.print(stack.elementAt(i) + " ");
-    }
      
-
-
-
-
-
-
-
-
-
-
-        
+      Mystack(stack);
+      sc.close();              
+      }
+    
     }
     
-}
+
