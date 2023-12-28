@@ -7,22 +7,16 @@ import java.util.LinkedList;
 public class Class2_Q2ReverseQueue {
     public static void main(String[] args) {
         Queue<Integer>queue=new LinkedList<>();
-        // Scanner sc = new Scanner(System.in);
-        // System.out.println("no of element of queue::");
-        // int n = sc.nextInt();
-        // System.out.println("enter the element of queue");
-        // for (int i = 0; i <queue.size(); i++) {
-        //     queue.offer(sc.nextInt());
-        // }
         queue.offer(125);
         queue.offer(4);
         queue.offer(5);
         queue.offer(1);
+        int k = queue.size();
         Queue<Integer>tempQueue1 = new LinkedList<>();
         Queue<Integer>tempQueue2 = new LinkedList<>();
-        for (int i = 0; i < queue.size(); i++) {            
+        for (int i = 0; i < k; i++) {            
 
-           while(queue.size()==1) {
+           while(queue.size()!=1) {
             tempQueue1.offer(queue.poll());            
            }
 
