@@ -1,7 +1,7 @@
 package CH10Linkedlist;
 
 //import java.util.Linkedist;
-
+/* 
 class Node{
     public int data;
     public Node next ;   
@@ -67,7 +67,10 @@ class LinkedList{
         }
         System.out.println(size);
 
-    }    
+    }   
+    static boolean Empty(){
+        if
+    } 
 
 
 }
@@ -81,11 +84,11 @@ public class Class1_Q1ImplementLinkedlist {
         list.append(30);
         list.display();
         list.delete(10);
-        list.display();
-        
+        list.display();        
         list.append(30);
         list.size();
         
     }
     
 }
+*/
