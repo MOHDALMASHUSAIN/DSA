@@ -12,9 +12,7 @@ public class Reverse {
         list.add(60);
         Stack<Integer>stack = new Stack<>();
        for (int i = 0; i < list.size(); i++) {
-        stack.push(list.get(i))
-
-        
+        stack.push(list.get(i));        
        }
         System.out.println(list);
         for (int i = list.size()-1; i>=0; i--) {
