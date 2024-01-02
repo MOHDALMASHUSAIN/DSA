@@ -1,20 +1,7 @@
 package CH10Linkedlist;
 import java.util.LinkedList;
 import java.util.Scanner;
-
-public class Class2_Q5firstlastnodeSame {
-    static boolean checkfirstNlast(LinkedList<Integer>list){        
-            if ( list.getFirst()==list.getLast()){
-                System.out.println("Same ");
-                     return true;
-            } 
-            else{
-                System.out.println("not same");
-            }          
-         
-        return false;           
-    }
-    
+public class Class2_Q2Palindrome {
     public static void main(String[] args) {
         LinkedList<Integer>list = new LinkedList<>();
         Scanner sc = new Scanner(System.in);
@@ -27,8 +14,15 @@ public class Class2_Q5firstlastnodeSame {
             } 
             list.add(element);           
         }
-        checkfirstNlast(list);
-        sc.close();
+        for (int i = 0,j=list.size()-1;i<list.size()/2 ; i++,j--){
+            if (list.get(i)!=list.get(j)) {
+                System.out.println("not palindrome");
+                break;
+            }
+           
+        }
+         System.out.println("palindrome");
+           sc.close(); 
+
     }
-    
 }
