@@ -9,7 +9,6 @@ public class Class2_Q4KthNode {
             System.out.println("Kth element from last ::" + list.get(list.size() - k));
         }
     }
-
     public static void main(String[] args) {
         LinkedList<Integer> list = new LinkedList<>();
         Scanner sc = new Scanner(System.in);
