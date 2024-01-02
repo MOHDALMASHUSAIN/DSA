@@ -1,6 +1,6 @@
 package CH7Stack;
 
-import CH9Queue.Stack;
+//import CH9Queue.Stack;
 
 //import java.util.Stack;
 class Stack {

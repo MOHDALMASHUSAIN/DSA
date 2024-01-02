@@ -25,36 +25,38 @@ class LinkedList{
         }
 
         current.next = newNode;
-    }
-
-   
-   /*  static int  delete(){
+    }   
+    static int  delete(){
         if(head == null){
-            return 1;
+            System.out.println("underflow");
+            return -1;
         }
             head = head.next;
             
-            return -1; 
+            return 1; 
         }
-        /* 
+   
+          static void display(){
         Node current = head;
 
-        while(current.next!= null && current.next.data !=data){
+        while (current!=null) {
+            System.out.print(current.data + " ");
             current = current.next;
         }
-
-        if(current.next!=null){
-            current.next = current.next.next;
-        }
-        */        
+        System.out.println();
+        }     
     }
 
-public class Class2_Q2ImplementQueue {
+public class Class1_Q2ImplementQueue {
     public static void main(String[] args) {
         LinkedList list = new LinkedList();
-        list.append(10);        
-        list.append(20);
-        list.append(30);       
+        list.append(11);        
+        list.append(22);
+        list.append(33);
+        list.display();  
+        list.delete(); 
+        list.display(); 
+
         //System.out.println(list.delete());
      
     }
