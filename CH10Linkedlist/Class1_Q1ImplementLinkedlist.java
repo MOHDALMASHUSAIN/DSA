@@ -81,7 +81,6 @@ class LinkedList {
 
         return size;
     }
-
    
     static boolean isEmpty() {
         return head == null;
