@@ -5,6 +5,7 @@ public class Class3_Q1AddtwoLinkedlist {
     public static void main(String[] args) {
         LinkedList<Integer>list1 = new LinkedList<>();
         LinkedList<Integer>list2 = new LinkedList<>();
+         LinkedList<Integer>list3 = new LinkedList<>();        
         Scanner sc = new Scanner(System.in);
         System.out.println("enter the elements of Linkedlist1(-1 to stop)");
         int element1 =0;
@@ -28,12 +29,27 @@ public class Class3_Q1AddtwoLinkedlist {
                 list2.add(element2);
             }                    
         }
-        int i=Integer.parseInt(list1.toString());  
-        int j = Integer.parseInt(list2.toString());
-        int sum = i+j;
-        System.out.println(i);
+        
+        int num1 =0;
+       // breaking into numbers
+       for (int i = 0;i<list1.size();i++){
+        num1 =num1*10+list1.get(i);
+       }
+       int num2 =0;
+       for(int i =0;i<list2.size();i++){
+        num2 = num2*10+list2.get(i);
+       }
+       int sum = num1+num2;
+       for(int i =list3.size();i>=0;i--){
+        list3.add(i, sum%10);
+        sum = sum/10;
+    }
+    System.out.println(list3);
 
-   
+ sc.close();
+       
+
+
 
         
     }
