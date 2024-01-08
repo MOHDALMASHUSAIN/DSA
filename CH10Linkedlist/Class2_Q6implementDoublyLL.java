@@ -30,13 +30,14 @@ class Node{
             newNode.prev =tail;
             tail =newNode;
         }
-        
-
       }
+
+
+      
 
  }
 
-public class doubly {
+public class Class2_Q6implementDoublyLL {
     public static void main(String[] args) {
         
     }

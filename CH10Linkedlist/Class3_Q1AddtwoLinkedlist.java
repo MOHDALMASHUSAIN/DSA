@@ -40,7 +40,8 @@ public class Class3_Q1AddtwoLinkedlist {
         num2 = num2*10+list2.get(i);
        }
        int sum = num1+num2;
-       for(int i =list3.size();i>=0;i--){
+       System.out.println(sum);
+       for(int i =list3.size()-1;i>=0;i--){
         list3.add(i, sum%10);
         sum = sum/10;
     }
@@ -48,9 +49,5 @@ public class Class3_Q1AddtwoLinkedlist {
 
  sc.close();
        
-
-
-
-        
     }
 }
