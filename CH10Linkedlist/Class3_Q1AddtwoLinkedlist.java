@@ -4,8 +4,7 @@ import java.util.Scanner;
 public class Class3_Q1AddtwoLinkedlist {
     public static void main(String[] args) {
         LinkedList<Integer>list1 = new LinkedList<>();
-        LinkedList<Integer>list2 = new LinkedList<>();
-         LinkedList<Integer>list3 = new LinkedList<>();        
+        LinkedList<Integer>list2 = new LinkedList<>();  
         Scanner sc = new Scanner(System.in);
         System.out.println("enter the elements of Linkedlist1(-1 to stop)");
         int element1 =0;
@@ -46,6 +45,7 @@ public class Class3_Q1AddtwoLinkedlist {
         sum = sum/10;
     }
     System.out.println(list3);
+    
 
  sc.close();
        
