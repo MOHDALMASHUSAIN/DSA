@@ -35,7 +35,6 @@ class LinkedList {
         newNode.next = current.next;
         current.next = newNode;
     }
-
     
     static void delete(int index) {
         if (head == null) {

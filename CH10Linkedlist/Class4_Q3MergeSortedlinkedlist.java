@@ -24,7 +24,15 @@ public class Class4_Q3MergeSortedlinkedlist {
             } 
             list2.add(element1);           
         }
-      
-
+        LinkedList<Integer>newLL = new LinkedList<>();
+        for (int i = 0; i < list1.size(); i++) {
+            for (int j = 0; j < list2.size(); j++) {
+                {
+                    
+                }
+                
+            }
+            
+        }
     }
 }
