@@ -1,5 +1,4 @@
 package CH10Linkedlist;
-
 class Node {
     public int data;
     public Node next;

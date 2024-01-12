@@ -1,7 +1,6 @@
 package CH10Linkedlist;
 import java.util.LinkedList;
 import java.util.Scanner;
-
 public class Class4_Q5SwapNodesinPair {
     static void SwapNodesinPair(LinkedList<Integer>list){     
         for (int i = 0; i < list.size(); i++) {
@@ -26,6 +25,7 @@ public class Class4_Q5SwapNodesinPair {
             list1.add(element);           
         }
         SwapNodesinPair(list1);
+        sc.close();
         
     }
 }
