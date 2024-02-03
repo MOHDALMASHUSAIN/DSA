@@ -20,7 +20,7 @@ public class Class4_Q6LRUcache {
         stack.add(28);
         stack.add(554);
         stack.add(101);
-        Add(stack, 3);
+        Add(stack, 133);
       
     }
 }
