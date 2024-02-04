@@ -54,7 +54,6 @@ class Graph {
             System.out.println("One or both nodes do not exist");
         }
     }
-
     void deleteNode(int node) {
         if (g.containsKey(node)) {
             g.remove(node);
