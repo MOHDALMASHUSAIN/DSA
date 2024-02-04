@@ -4,6 +4,8 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
+
+import javax.management.Query;
 class Graph {
     private Map<Integer, List<Integer>> g;
 
@@ -66,7 +68,6 @@ class Graph {
         }
     }
 }
-
 public class Class1_Q1Implementation {
     public static void main(String[] args) {
         Graph graph = new Graph();
