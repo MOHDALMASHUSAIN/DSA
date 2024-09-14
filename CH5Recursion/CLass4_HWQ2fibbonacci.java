@@ -27,4 +27,4 @@ public class CLass4_HWQ2fibbonacci {
         sc.close();
     }
 }
-                                              using branching
+                      using branching

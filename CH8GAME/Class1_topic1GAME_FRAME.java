@@ -1,4 +1,4 @@
-package Chapter8GAME;
+package CH8GAME;
 import javax.swing.JFrame;
 
 public class Class1_topic1GAME_FRAME extends JFrame  {

@@ -1,20 +1,22 @@
-package Chapter8GAME;
+package CH8GAME;
 
 import java.awt.Graphics;
 import java.awt.image.BufferedImage;
+import java.awt.print.Paper;
 import java.io.IOException;
 import java.net.URL;
 
 import javax.imageio.ImageIO;
 import javax.swing.JPanel;
 import javax.swing.Timer;
+import javax.swing.text.html.parser.Entity;
 
 public class Class1_topic2Board extends JPanel {
     BufferedImage bgImg;
-    Player player;
-    Enemy enemy;
+    Paper player;
+    Entity enemy;
     Timer timer;
-    Enemy enemies[] = new Enemy[3];
+    Entity enemies[] = new Enemy[3];
     
     public Class1_topic2Board() {
         // setSize(400, 600);
