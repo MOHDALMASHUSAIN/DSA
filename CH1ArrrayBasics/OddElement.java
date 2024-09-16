@@ -15,7 +15,7 @@ public class OddElement {
             
         
         if(j%2 !=0){
-            System.out.println(j);
+            System.out.print(j);
         }}
     }
 }
