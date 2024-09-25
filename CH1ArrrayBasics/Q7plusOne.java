@@ -1,5 +1,6 @@
 package CH1ArrrayBasics;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Q7plusOne {
@@ -14,7 +15,7 @@ public class Q7plusOne {
     }
     for (int j:arr){
         j+=1;
-        System.out.println(j);
+        System.out.print(j+" ");
     }
 
     }
