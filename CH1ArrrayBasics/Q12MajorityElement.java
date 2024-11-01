@@ -1,4 +1,4 @@
- package CH1ArrrayBasics;
+ 
 
 public class Q12MajorityElement {
 public static void main(String[] args) {

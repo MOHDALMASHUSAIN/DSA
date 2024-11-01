@@ -1,4 +1,4 @@
-package CH1ArrrayBasics;
+
 
 public class Q19ProductofArrayexceptitself {
     public static void main(String[] args) {
