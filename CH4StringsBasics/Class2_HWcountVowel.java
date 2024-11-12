@@ -6,7 +6,7 @@ public class Class2_HWcountVowel {
     public static void main(String[] args) {
        // String str = "aeiou";
         Scanner sc= new Scanner(System.in);
-        System.out.println("enter the string");
+        System.out.println("enter the string name");
         String str1 = sc.nextLine();
       int count  = 0;
       for (int i = 0;i<str1.length();i++){
